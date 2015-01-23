@@ -1,0 +1,622 @@
+
+.row {
+
+}
+.row .row {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+
+}
+
+
+.col-md-4 {
+
+}
+
+
+/* SECTIONS */
+/* header */
+.hero
+  { height: 760px;
+   background-color:#efeee7;
+   padding: 8% 10% 2% 10%;
+}
+
+.hero .col-xs-6
+  { 
+    background-color:#efeee7;
+    border: none;
+}
+
+
+
+#block{
+  height: 300px;
+  width: 100%;
+  }
+
+.block-black{
+  background-color: black;
+  height: 300px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  }
+
+.block-beige{
+  background-color: #efeee7;
+}
+
+.block-white{
+  background-color: #white;
+  height: 300px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#big{
+  height: 1000px;
+  background-color:#efeee7;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#big-2{
+  height: 1060px;
+  background-color:#efeee7;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#big-3{
+  height: 900px;
+  background-color:#efeee7;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
+/* TYPE */
+
+h1{ 
+    font-family: "futura-pt";
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 100px;
+    letter-spacing: .03em;
+    line-height: 120px;
+    color: black;
+    margin-bottom: 5%;
+}
+
+h2{
+  font-family: "futura-pt";
+  font-weight: 400;
+  letter-spacing: .1em;
+  font-size: 34px;
+  line-height: 60px;
+  color: black;
+}
+
+
+
+p{
+  font-family: "futura-pt";
+  font-size: 23px;
+  font-weight: 100;
+  letter-spacing: .1em;
+
+}
+
+.block-black h2{ 
+  color:  white;
+}
+
+a{
+  color:#214ba0;
+}
+
+
+
+/* BUTTON */
+
+h3{
+    font-family: "futura-pt";
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: .35em;
+    color: black;
+   
+}
+
+
+.btn{
+  border-color: black;
+  border-style: solid;
+  border-width: 4px;
+  width: 90%;
+  margin-top: 5%;
+  background-color: #efeee7;
+}
+
+.btn:hover{
+  background-color: #214ba0;
+  border: none;
+}
+
+.btn:hover h3{
+  color: white;
+}
+
+
+
+
+/* FORM */
+
+input{
+  border-radius: 4px;
+  width: 90%;
+}
+
+textarea{
+  width: 90%; 
+}
+
+input:focus{
+  outline-color:#214ba0;
+}
+
+textarea:focus{
+  outline-color:#214ba0;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 901px) and (max-width: 1024px)  {
+
+.hero
+  { height: 560px;
+   background-color:#efeee7;
+   padding: 8% 10% 2% 10%;
+}
+
+#block
+{
+  height: 160px;
+  width: 100%;
+}
+
+#big{
+  height: 700px;
+}
+
+#big-2{
+  height: 600px;
+}
+
+#big-3{
+  height: 650px;
+}
+
+h1{ 
+    font-size: 65px;
+    line-height: 75px;
+
+}
+
+
+h2{
+  font-size: 25px;
+  line-height: 30px;
+}
+
+
+
+
+p{
+
+  font-size: 17px;
+
+}
+
+
+textarea{
+  height: 50px;
+}
+
+
+
+#big-2 .btn h3{
+  font-size: 10px;
+  letter-spacing: .2em;
+}
+
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 900px)  {
+
+.hero
+{ 
+  height: 750px;
+}
+
+.hero .col-xs-6 #Layer_1
+{
+  height: 100%;
+  margin-top: 5%;
+}
+
+.hero .col-xs-6 
+{
+  padding-left:0px;
+  padding-right: 0px;
+  width: 100%
+}
+
+#block
+{
+  height: 170px;
+  width: 100%;
+}
+
+#big
+{
+  height: 1300px;
+}
+
+
+#big-2
+{
+  height: 750px;
+}
+
+#big-2 .col-xs-6 
+{
+  width: 100%
+}
+
+#big-3
+{
+  height: 1100px;
+}
+
+#big-3 .col-xs-6 
+{
+  width: 100%;
+  padding-left:0px;
+  padding-right: 0px;
+}
+
+
+
+
+.col-md-4 #Layer_1
+{
+  height: 180px;
+  display: block;
+  align-content: center;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15%;
+}
+
+
+
+h1{ 
+   
+    font-size: 55px;
+    line-height: 65px;
+
+}
+
+h2{
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h3{
+
+    font-size: 13px;
+    letter-spacing: .2em;
+}
+
+p{
+
+  font-size: 14px;
+}
+
+
+
+.btn {
+  width: 100%;
+
+}
+
+input{
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+  height: 60px;
+}
+
+  }
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 599px)  {
+
+  .hero
+  { 
+    height: 350px;
+  }
+
+  .hero .col-xs-6 
+  {
+    padding-left:0px;
+    padding-right: 0px;
+    width: 100%
+  }
+
+  .hero .col-xs-6 #Layer_1{
+  height: 100%;
+  margin-top: 5%;
+  }
+
+
+  #big
+  {
+    height: 1200px;
+  }
+
+  #big-2
+  {
+    height: 750px;
+  }
+
+  #big-2 .col-xs-6 
+  {
+    width: 100%
+  }
+
+  #big-3 .col-xs-6 
+  {
+    width: 100%;
+    padding-left:0px;
+    padding-right: 0px;
+  }
+
+
+  #block
+  {
+    height: 170px;
+    width: 100%;
+  }
+
+
+  .block-black
+  {
+    background-color: black;
+    height: 170px;
+  }
+
+
+  .col-md-4 #Layer_1
+  {
+    height: 180px;
+    display: block;
+    align-content: center;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15%;
+  }
+
+  .col-xs-6 #Layer_1
+  {
+    height: 300px;
+    display: block;
+    align-content: center;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15%;
+  }
+
+
+
+
+  h1
+  { 
+     
+      font-size: 40px;
+      line-height: 50px;
+  }
+
+  h2
+  {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  h3
+  {
+      font-size: 13px;
+      letter-spacing: .2em;
+  }
+
+
+  p
+  {
+    font-size: 14px;
+  }
+
+
+  .btn 
+  {
+    width: 100%;
+  }
+
+  input
+  {
+    width: 100%;
+  }
+
+  textarea
+  {
+    width: 100%;
+    height: 60px;
+  }
+
+ }
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+
+
+.hero
+  { height: 450px;
+   background-color:#efeee7;
+   padding: 8% 10% 2% 10%;
+}
+
+.hero .col-xs-6 #Layer_1{
+  height: 100%;
+  margin-top: 5%;
+}
+
+.hero .col-xs-6 {
+  padding-left:0px;
+  padding-right: 0px;
+  width: 100%
+}
+
+#big{
+  height: 1000px;
+}
+
+
+#big-2{
+  height: 550px;
+}
+
+#big-2 .col-xs-6 {
+  width: 100%
+}
+
+
+#big-3{
+  height: 700px;
+}
+
+#big-3 .col-xs-6 {
+  width: 100%;
+  padding-left:0px;
+  padding-right: 0px;
+}
+
+#block{
+  height: 100px;
+  width: 100%;
+  }
+
+.block-black{
+  background-color: black;
+  height: 100px;
+ 
+}
+
+.col-md-4 #Layer_1{
+  height: 180px;
+  display: block;
+  align-content: center;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15%;
+}
+
+
+
+h1{ 
+   
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+h2{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h3{
+
+    font-size: 12px;
+    letter-spacing: .1em;
+
+   
+}
+
+p{
+
+  font-size: 12px;
+}
+
+
+
+.btn {
+  width: 100%;
+
+}
+
+input{
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+  height: 60px;
+}
+
+
+  }
+
+
+
+
