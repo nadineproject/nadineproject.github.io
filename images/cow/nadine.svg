@@ -1,0 +1,11 @@
+<svg version="1.1" baseProfile="tiny" id="svg-root"
+  width="100%" height="100%" viewBox="0 0 480 360"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <image width="320" height="240" xlink:href="test1.jpg">
+    <animate attributeName="xlink:href" 
+      values="frame1.svg; frame2.svg; frame3.svg; frame4.svg; frame5.svg; frame6.svg; frame7.svg; frame8.svg"
+      begin="0s" repeatCount="indefinite" dur="2s"/>
+  </image>
+
+</svg>
