@@ -24,15 +24,43 @@
 
 		<script src="http://use.typekit.net/zoo5qud.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
+		
+		<script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+				$('a[href^="#"]').on('click',function (e) {
+				    e.preventDefault();
+
+				    var target = this.hash;
+				    var $target = $(target);
+
+				    $('html, body').stop().animate({
+				        'scrollTop': $target.offset().top
+				    }, 900, 'swing', function () {
+				        window.location.hash = target;
+				    });
+				});
+			});
+		</script>
 	</head>
 
 	<body>
+		<nav class="navbar">
+			<div id="nav-container" class="container">
+				<a href="#"><img id="logo" src="images/logo.svg"/></a>
+				<h3 class="nav-link">
+					<a href="#features">Features</a>
+					<a href="#getting-started">Getting Started</a>
+					<a href="#contact">Contact Us</a>
+				</h3>
+			</div>
+		</nav>
 		<div class="container">
 			<div class="row">
 				<div class="hero">
 					<div class="col-xs-6">
 						<h1>this is nadine.</h1>
-						<h2>She helps people run <br> <a href="http://coworking.org/">coworking spaces.</a></h2>
+						<h2>She helps people run<br> <a href="http://coworking.org/">coworking spaces.</a></h2>
 					</div>
 					<div class="col-xs-6">
 						<!--<img src="images/nadine-hero.svg" alt="Nadine Logo"/>-->
@@ -63,27 +91,27 @@
 				</div>
 			</div>
 		
-			<div class="row">
+			<div id="features" class="row">
 				<div id="big">
 					<div class="block-beige">
 						<h1>nadine grew up to help with:</h1>
 					</div>
 					<div class="col-md-4">
-						<div class="help">
+						<div class="feature">
 							<img src="images/communications.svg" alt="Communications"/>
 						</div>
 						<h2> Communications:</h2>
 						<p>member profiles, discovery, discussion lists, interest tags. <!-- <a href="url">more info</a> </p> -->
 					</div>
 					<div class="col-md-4">
-						<div class="help">
+						<div class="feature">
 							<img src="images/reporting.svg" alt="Reporting"/>
 						</div>
 						<h2> Reporting:</h2>
 						<p>tracking activity, analitics, billing reports. <!-- <a href="url">more info</a> </p> -->
 					</div>
 					<div class="col-md-4">
-						<div class="help">
+						<div class="feature">
 							<img src="images/workflow.svg" alt="Workflow"/>
 						</div>
 						<h2> Work Flow:</h2>
@@ -100,7 +128,7 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div id="getting-started" class="row">
 				<div id="big-2">
 					<div class="block-beige">
 						<h1>getting started</h1>
@@ -125,7 +153,7 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div id="contact" class="row">
 				<div id="big-3">
 					<div class="block-beige">
 						<h1>not sure how to start?</h1>

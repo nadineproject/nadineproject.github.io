@@ -18,8 +18,23 @@
 
 /* SECTIONS */
 /* header */
-.hero
-  { height: 760px;
+
+#logo {
+	width: 13%;
+	margin-bottom: -10%;
+}
+#nav-container {
+	background-color: white;
+}
+.nav-link {
+	margin-left: 12%;
+}
+.nav-link a {
+	padding-left: 2em;
+}
+
+.hero { 
+	height: 760px;
    background-color:#efeee7;
    padding: 8% 10% 2% 10%;
 }
@@ -86,10 +101,9 @@
   padding-bottom: 5%;
 }
 
-.help{
-	height:33.3%;
+.feature{
+	height:30%;
 }
-
 
 
 /* TYPE */
