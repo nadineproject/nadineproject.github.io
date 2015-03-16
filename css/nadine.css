@@ -55,7 +55,6 @@
 
 #footer {
 	background-color: #efeee7;
-	margin-right: 5%;
 }
 #footer h3 {
 	font-family: "futura-pt";
@@ -64,6 +63,7 @@
 	font-size: 11px;
 	letter-spacing: .35em;
 	float: right;
+	margin-right: 5%;
 }
 
 #block{
