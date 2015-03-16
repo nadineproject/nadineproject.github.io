@@ -350,125 +350,105 @@ textarea:focus {
 
 @media screen and (min-width: 481px) and (max-width: 599px)  {
 
-  .hero { 
-    height: 350px;
-  }
+	.hero {
+		height: 350px;
+	}
 
-  .hero .col-xs-6 {
-    padding-left:0px;
-    padding-right: 0px;
-    width: 100%
-  }
+	.hero .col-xs-6 {
+		padding-left:0px;
+		padding-right: 0px;
+		width: 100%
+	}
 
 	.hero .col-xs-6 #Layer_1 {
 		height: 100%;
 		margin-top: 5%;
 	}
 
-  #big {
-    height: inherit;
-  }
+	#big {
+		height: inherit;
+	}
 
-  #big-2
-  {
-    height: 750px;
-  }
+	#big-2 {
+		height: 750px;
+	}
 
-  #big-2 .col-xs-6 
-  {
-    width: 100%
-  }
+	#big-2 .col-xs-6 {
+		width: 100%
+	}
 
-  #big-3 .col-xs-6 
-  {
-    width: 100%;
-    padding-left:0px;
-    padding-right: 0px;
-  }
+	#big-3 .col-xs-6 {
+		width: 100%;
+		padding-left:0px;
+		padding-right: 0px;
+	}
 
+	#block {
+		height: 170px;
+		width: 100%;
+	}
 
-  #block
-  {
-    height: 170px;
-    width: 100%;
-  }
+	.block-black {
+		background-color: black;
+		height: 170px;
+	}
 
+	.block-white{
+		background-color: white;
+		height: 170px;
+	}
 
-  .block-black
-  {
-    background-color: black;
-    height: 170px;
-  }
-  
-  .block-white{
-    background-color: white;
-    height: 170px;
-  }
+	.col-md-4 #Layer_1 {
+		height: 180px;
+		display: block;
+		align-content: center;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 15%;
+	}
 
+	.col-xs-6 #Layer_1 {
+		height: 300px;
+		display: block;
+		align-content: center;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 15%;
+	}
 
-  .col-md-4 #Layer_1
-  {
-    height: 180px;
-    display: block;
-    align-content: center;
-    float: none;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 15%;
-  }
+	h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
 
-  .col-xs-6 #Layer_1
-  {
-    height: 300px;
-    display: block;
-    align-content: center;
-    float: none;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 15%;
-  }
+	h2 {
+		font-size: 20px;
+		line-height: 25px;
+	}
 
-  h1
-  { 
-     
-      font-size: 40px;
-      line-height: 50px;
-  }
+	h3 {
+		font-size: 13px;
+		letter-spacing: .2em;
+	}
 
-  h2
-  {
-    font-size: 20px;
-    line-height: 25px;
-  }
+	p {
+		font-size: 14px;
+	}
 
-  h3
-  {
-      font-size: 13px;
-      letter-spacing: .2em;
-  }
+	.btn {
+		width: 100%;
+	}
 
+	input {
+		width: 100%;
+	}
 
-  p
-  {
-    font-size: 14px;
-  }
-
-
-  .btn 
-  {
-    width: 100%;
-  }
-
-  input
-  {
-    width: 100%;
-  }
-
-  textarea
-  {
-    width: 100%;
-    height: 60px;
-  }
+	textarea {
+		width: 100%;
+		height: 60px;
+	}
 
 }
 
@@ -486,9 +466,9 @@ textarea:focus {
 	}
 
 	.hero .col-xs-6 {
-	  padding-left:0px;
-	  padding-right: 0px;
-	  width: 100%
+		padding-left:0px;
+		padding-right: 0px;
+		width: 100%
 	}
 
 	#big {
@@ -500,87 +480,74 @@ textarea:focus {
 	}
 
 	#big-2 .col-xs-6 {
-	  width: 100%
+		width: 100%
 	}
 
-
-	#big-3{
-	  height: 700px;
+	#big-3 {
+		height: 700px;
 	}
 
 	#big-3 .col-xs-6 {
-	  width: 100%;
-	  padding-left:0px;
-	  padding-right: 0px;
+		width: 100%;
+		padding-left:0px;
+		padding-right: 0px;
 	}
 
-	#block{
-	  height: 100px;
-	  width: 100%;
-	  }
-
-	.block-black{
-	  background-color: black;
-	  height: 100px;
- 
+	#block {
+		height: 100px;
+		width: 100%;
 	}
 
-	.block-white{
-	  background-color: white;
-	  height: 100px;
+	.block-black {
+		background-color: black;
+		height: 100px;
+	}
+
+	.block-white {
+		background-color: white;
+		height: 100px;
 	}
 
 	.col-md-4 #Layer_1{
-	  height: 180px;
-	  display: block;
-	  align-content: center;
-	  float: none;
-	  margin-right: auto;
-	  margin-left: auto;
-	  margin-top: 15%;
+		height: 180px;
+		display: block;
+		align-content: center;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 15%;
 	}
 
-
-
-	h1{ 
-   
-	    font-size: 30px;
-	    line-height: 40px;
-
+	h1 {
+		font-size: 30px;
+		line-height: 40px;
 	}
 
-	h2{
-	  font-size: 15px;
-	  line-height: 20px;
+	h2 {
+		font-size: 15px;
+		line-height: 20px;
 	}
 
-	h3{
-
-	    font-size: 12px;
-	    letter-spacing: .1em;
-
-   
+	h3 {
+		font-size: 12px;
+		letter-spacing: .1em;
 	}
 
-	p{
-
-	  font-size: 12px;
+	p {
+		font-size: 12px;
 	}
-
-
 
 	.btn {
-	  width: 100%;
-
+		width: 100%;
 	}
 
-	input{
-	  width: 100%;
+	input {
+		width: 100%;
 	}
 
-	textarea{
-	  width: 100%;
-	  height: 60px;
+	textarea {
+		width: 100%;
+		height: 60px;
 	}
 
 }
