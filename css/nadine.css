@@ -38,6 +38,7 @@
 .nav-link a {
 	padding-left: 2em;
    color: black;
+	font-weight: 500;
 }
 
 .hero { 
@@ -52,7 +53,7 @@
     border: none;
 }
 
-#footer .col-md-12 h3{
+#footer h3 {
 	font-family: "futura-pt";
 	text-transform: uppercase;
 	font-weight: 300;
