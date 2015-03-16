@@ -258,10 +258,6 @@ textarea:focus {
 	.block-beige img {
 		background-color: #efeee7;
 	}
-
-	.feature{
-		width:30%;
-	}	
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
