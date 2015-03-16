@@ -464,6 +464,11 @@ textarea{
     background-color: black;
     height: 170px;
   }
+  
+  .block-white{
+    background-color: white;
+    height: 170px;
+  }
 
 
   .col-md-4 #Layer_1
@@ -596,6 +601,11 @@ textarea{
   background-color: black;
   height: 100px;
  
+}
+
+.block-white{
+  background-color: white;
+  height: 100px;
 }
 
 .col-md-4 #Layer_1{
