@@ -282,7 +282,7 @@ textarea:focus {
 	}
 
 	#big {
-		height: 1300px;
+		height: inherit;
 	}
 
 	#big-2 {
@@ -365,10 +365,8 @@ textarea:focus {
 		margin-top: 5%;
 	}
 
-
-  #big
-  {
-    height: 1200px;
+  #big {
+    height: inherit;
   }
 
   #big-2
@@ -476,10 +474,10 @@ textarea:focus {
 
 @media screen and (min-width: 320px) and (max-width: 480px)  {
 
-	.hero
-	  { height: 450px;
-	   background-color:#efeee7;
-	   padding: 8% 10% 2% 10%;
+	.hero { 
+		height: 450px;
+		background-color:#efeee7;
+		padding: 8% 10% 2% 10%;
 	}
 
 	.hero .col-xs-6 #Layer_1{
@@ -493,12 +491,11 @@ textarea:focus {
 	  width: 100%
 	}
 
-	#big{
-	  height: 1000px;
+	#big {
+		height: inherit;
 	}
 
-
-	#big-2{
+	#big-2 {
 	  height: 550px;
 	}
 
