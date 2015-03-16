@@ -37,6 +37,7 @@
 }
 .nav-link a {
 	padding-left: 2em;
+   color: black;
 }
 
 .hero { 
@@ -51,7 +52,13 @@
     border: none;
 }
 
-
+#footer .col-md-12 h3{
+	font-family: "futura-pt";
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 11px;
+	letter-spacing: .35em;
+}
 
 #block{
   height: 300px;
@@ -637,7 +644,6 @@ textarea{
   width: 100%;
   height: 60px;
 }
-
 
   }
 
