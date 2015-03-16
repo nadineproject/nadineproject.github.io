@@ -28,6 +28,12 @@
 }
 .nav-link {
 	margin-left: 12%;
+   font-family: "futura-pt";
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 14px;
+   letter-spacing: .35em;
+   color: black;
 }
 .nav-link a {
 	padding-left: 2em;
