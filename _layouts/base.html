@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="images/favicon.ico">
+
+		<title>The Nadine Project</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/nadine.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Work+Sans:900,500' rel='stylesheet' type='text/css'>
+
+		<script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+				$('a[href^="#"]').on('click',function (e) {
+				    e.preventDefault();
+
+				    var target = this.hash;
+				    var $target = $(target);
+
+				    $('html, body').stop().animate({
+				        'scrollTop': $target.offset().top
+				    }, 900, 'swing', function () {
+				        window.location.hash = target;
+				    });
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<nav class="navbar">
+			<div id="nav-container" class="container">
+				<a href="#"><img id="logo" src="images/logo.svg"/></a>
+				<h4 class="nav-link">
+					<a href="#features">Features</a>
+					<a href="#getting-started">Getting Started</a>
+					<a href="#contact">Contact Us</a>
+				</h4>
+			</div>
+		</nav>
+		<div class="container">
+
+			{{ content }}
+
+			<!-- Footer -->
+			<div class="row">
+				<div id="footer" class="col-md-12">
+					<h3>©Office Nomads. Hosted on GitHub Pages.</h3>
+				</div>
+			</div>
+
+		</div> <!-- /container -->
+	</body>
+
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-29552936-1");
+			pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+</html>
+<!-- hello jacob -->
