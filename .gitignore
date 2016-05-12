@@ -19,3 +19,7 @@ media/arp/import.log
 .settings
 celerybeat-schedule.db
 django.log
+_site
+.jekyll-metadata
+Gemfile.lock
+.DS_Store

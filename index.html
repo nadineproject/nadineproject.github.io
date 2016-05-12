@@ -1,213 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<link rel="icon" href="images/favicon.ico">
+---
+layout: base
+---
 
-		<title>The Nadine Project</title>
+<div class="row">
+	<div class="hero clearfix">
+		<div class="col-xs-6">
+			<h1>This is Nadine.</h1>
+			<h2>She helps people run<br> <a href="http://coworking.org/">coworking spaces.</a></h2>
+		</div>
+		<div class="col-xs-6">
+			<!--<img src="images/nadine-hero.svg" alt="Nadine Logo"/>-->
+			<svg version="1.1" baseProfile="tiny" id="svg-root" width="100%" height="100%" viewBox="0 0 480 360"
+				xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<image width="100%" height="100%" xlink:href="images/cow/frame1.svg">
+					<animate attributeName="xlink:href"
+						values="images/cow/frame1.svg;
+							images/cow/frame1.svg;
+							images/cow/frame1.svg;
+							images/cow/frame1.svg;
+							images/cow/frame2.svg;
+							images/cow/frame3.svg"
+						begin="0s"
+						repeatCount="indefinite"
+						dur="1s"/>
+					</image>
+			</svg>
+		</div>
+	</div>
+</div>
 
-		<!-- Bootstrap core CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+<div class="row">
+	<div class="block">
+		<div class="block-black clearfix">
+			<h2>An open source coworking platform. Raised by Office Nomads since 2008.</h2>
+		</div>
+	</div>
+</div>
 
-		<!-- Custom styles for this template -->
-		<link href="css/nadine.css" rel="stylesheet">
-
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Work+Sans:900,500' rel='stylesheet' type='text/css'>
-
-		<script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
-		<script>
-			$(document).ready(function(){
-				$('a[href^="#"]').on('click',function (e) {
-				    e.preventDefault();
-
-				    var target = this.hash;
-				    var $target = $(target);
-
-				    $('html, body').stop().animate({
-				        'scrollTop': $target.offset().top
-				    }, 900, 'swing', function () {
-				        window.location.hash = target;
-				    });
-				});
-			});
-		</script>
-	</head>
-
-	<body>
-		<nav class="navbar">
-			<div id="nav-container" class="container">
-				<a href="#"><img id="logo" src="images/logo.svg"/></a>
-				<h4 class="nav-link">
-					<a href="#features">Features</a>
-					<a href="#getting-started">Getting Started</a>
-					<a href="#contact">Contact Us</a>
-				</h4>
+<div id="features" class="row">
+	<div class="big clearfix">
+		<div class="block-beige">
+			<div class="col-xs-12">
+				<h1>nadine grew up to help with:</h1>
 			</div>
-		</nav>
-		<div class="container">
-			<div class="row">
-				<div class="hero">
-					<div class="col-xs-6">
-						<h1>this is nadine.</h1>
-						<h2>She helps people run<br> <a href="http://coworking.org/">coworking spaces.</a></h2>
-					</div>
-					<div class="col-xs-6">
-						<!--<img src="images/nadine-hero.svg" alt="Nadine Logo"/>-->
-						<svg version="1.1" baseProfile="tiny" id="svg-root" width="100%" height="100%" viewBox="0 0 480 360"
-							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-							<image width="100%" height="100%" xlink:href="images/cow/frame1.svg">
-								<animate attributeName="xlink:href"
-									values="images/cow/frame1.svg;
-										images/cow/frame1.svg;
-										images/cow/frame1.svg;
-										images/cow/frame1.svg;
-										images/cow/frame2.svg;
-										images/cow/frame3.svg"
-									begin="0s"
-									repeatCount="indefinite"
-									dur="1s"/>
-								</image>
-						</svg>
-					</div>
+			<div class="col-md-4">
+				<div class="feature">
+					<img src="images/communications.svg" alt="Communications"/>
+				</div>
+				<h2>Communications:</h2>
+				<p>member profiles, discovery, discussion lists, interest tags. <!-- <a href="url">more info</a> </p> -->
+			</div>
+			<div class="col-md-4">
+				<div class="feature">
+					<img src="images/reporting.svg" alt="Reporting"/>
+				</div>
+				<h2>Reporting:</h2>
+				<p>tracking activity, analytics, billing reports. <!-- <a href="url">more info</a> </p> -->
+			</div>
+			<div class="col-md-4">
+				<div class="feature">
+					<img src="images/workflow.svg" alt="Workflow"/>
+				</div>
+				<h2>Work Flow:</h2>
+				<p>sign-in, sign-up, onboarding and exiting tasks. <!-- <a href="url">more info</a> </p> -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="block">
+		<div class="block-white  clearfix">
+			<div class="col-xs-12">
+				<h2>Now <a href="http://officenomads.com">Office Nomads</a> wants to share Nadine with other coworking spaces around the world!</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="getting-started" class="row">
+	<div class="big clearfix">
+		<div class="block-beige">
+			<div class="col-xs-12">
+				<h1>getting started</h1>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<img src="images/download.svg" alt="Download"/>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<h2>Download and configure Nadine</h2>
+				<p>You can get started on GitHub by downloading the source code, and joining the
+				<a href="https://groups.google.com/forum/#!forum/nadineproject">discussion group.</a></p>
+				<a href="https://github.com/nadineproject/nadine" class="btn btn-default"><h3>download <span class="glyphicon glyphicon-save"></span></h3></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+ <div class="row">
+	<div class="block">
+		<div class="block-black clearfix">
+			<div class="col-xs-12">
+				<h2>We love meeting coworking space owners and sharing how we run Office Nomads smoothly.</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="contact" class="row">
+	<div class="big clearfix">
+		<div class="block-beige">
+			<div class="col-xs-12">
+				<h1>not sure how to start?</h1>
+			</div>
+			 <div class="col-xs-6">
+				 <img src="images/contact.svg" alt="Contact"/>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<div id="form">
+					<form id="contact_form" action="https://getsimpleform.com/messages?form_api_token=66b81f13db08b12706ca7372b0dd19b9" method="post">
+						<input type='hidden' name='redirect_to' value='http://nadineproject.org' />
+						<h3>Name:</h3>
+						<input type='name' size='76' name='name' /><br/>
+						<h3>Email:</h3>
+						<input type='email' size='76' name='email'/><br/>
+						<h3>Message:</h3>
+						<textarea name="message" rows="6" cols="78"></textarea><br/>
+						<button class="btn btn-default">
+							<h3>Send Message</h3>
+						</button>
+					</form>
 				</div>
 			</div>
-
-			<div class="row">
-				<div class="block">
-					<div class="block-black">
-						<h2>An open source coworking platform. Raised by Office Nomads since 2008.</h2>
-					</div>
-				</div>
-			</div>
-
-			<div id="features" class="row">
-				<div id="big">
-					<div class="block-beige">
-						<div class="col-xs-12">
-							<h1>nadine grew up to help with:</h1>
-						</div>
-						<div class="col-md-4">
-							<div class="feature">
-								<img src="images/communications.svg" alt="Communications"/>
-							</div>
-							<h2>Communications:</h2>
-							<p>member profiles, discovery, discussion lists, interest tags. <!-- <a href="url">more info</a> </p> -->
-						</div>
-						<div class="col-md-4">
-							<div class="feature">
-								<img src="images/reporting.svg" alt="Reporting"/>
-							</div>
-							<h2>Reporting:</h2>
-							<p>tracking activity, analytics, billing reports. <!-- <a href="url">more info</a> </p> -->
-						</div>
-						<div class="col-md-4">
-							<div class="feature">
-								<img src="images/workflow.svg" alt="Workflow"/>
-							</div>
-							<h2>Work Flow:</h2>
-							<p>sign-in, sign-up, onboarding and exiting tasks. <!-- <a href="url">more info</a> </p> -->
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="block">
-					<div class="block-white">
-						<div class="col-xs-12">
-							<h2>Now <a href="http://officenomads.com">Office Nomads</a> wants to share Nadine with other coworking spaces around the world!</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div id="getting-started" class="row">
-				<div id="big-2">
-					<div class="block-beige">
-						<div class="col-xs-12">
-							<h1>getting started</h1>
-						</div>
-						<div class="col-xs-12 col-md-8">
-							<img src="images/download.svg" alt="Download"/>
-						</div>
-						<div class="col-xs-6 col-md-4">
-							<h2>Download and configure Nadine</h2>
-							<p>You can get started on GitHub by downloading the source code, and joining the
-							<a href="https://groups.google.com/forum/#!forum/nadineproject">discussion group.</a></p>
-							<a href="https://github.com/nadineproject/nadine" class="btn btn-default"><h3>download <span class="glyphicon glyphicon-save"></span></h3></a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			 <div class="row">
-				<div class="block">
-					<div class="block-black">
-						<div class="col-xs-12">
-							<h2>We love meeting coworking space owners and sharing how we run Office Nomads smoothly.</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div id="contact" class="row">
-				<div id="big-3">
-					<div class="block-beige">
-						<div class="col-xs-12">
-							<h1>not sure how to start?</h1>
-						</div>
-						 <div class="col-xs-6">
-							 <img src="images/contact.svg" alt="Contact"/>
-						</div>
-						<div class="col-xs-6">
-							<div id="form">
-								<form id="contact_form" action="https://getsimpleform.com/messages?form_api_token=66b81f13db08b12706ca7372b0dd19b9" method="post">
-									<input type='hidden' name='redirect_to' value='http://nadineproject.org' />
-									<h3>Name:</h3>
-									<input type='name' size='76' name='name' /><br/>
-									<h3>Email:</h3>
-									<input type='email' size='76' name='email'/><br/>
-									<h3>Message:</h3>
-									<textarea name="message" rows="6" cols="78"></textarea><br/>
-									<button class="btn btn-default">
-										<h3>Send Message</h3>
-									</button>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Footer -->
-			<div class="row">
-				<div id="footer" class="col-md-12">
-					<h3>©Office Nomads. Hosted on GitHub Pages.</h3>
-				</div>
-			</div>
-
-		</div> <!-- /container -->
-	</body>
-
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-		try {
-			var pageTracker = _gat._getTracker("UA-29552936-1");
-			pageTracker._trackPageview();
-		} catch(err) {}
-	</script>
-</html>
-<!-- hello jacob -->
+		</div>
+	</div>
+</div>
