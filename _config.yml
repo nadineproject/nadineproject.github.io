@@ -1,0 +1,19 @@
+# System Setup
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+port:         8000
+
+# Site Details
+title:        "The Nadine Project"
+tagline:      "Open Source Coworking Platform"
+description:  "This is my personal record for art, projects, and other things I have had a hand in creating."
+authors:      "Jacob Sayles, Alice Wicks, Griffin Wesler"
+
+# Custom vars
+email:             "info@nadineproject.org"
+github_url:        "https://github.com/nadineproject/nadine"
+google-analytics:  "UA-29552936-1"

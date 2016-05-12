@@ -4,8 +4,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="title" content="{{ site.title }}">
+		<meta name="tagline" content="{{ site.tagline }}">
+		<meta name="description" content="{{ site.description }}">
+		<meta name="author" content="{{ site.authors }}">
 		<link rel="icon" href="images/favicon.ico">
 
 		<title>The Nadine Project</title>
@@ -81,7 +83,7 @@
 	</script>
 	<script type="text/javascript">
 		try {
-			var pageTracker = _gat._getTracker("UA-29552936-1");
+			var pageTracker = _gat._getTracker("{{ site.google-analytics }}");
 			pageTracker._trackPageview();
 		} catch(err) {}
 	</script>
