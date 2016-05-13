@@ -66,7 +66,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 .nav > li > a{
 	padding: 15px 0 10px;
-	margin: 20px 10% 14px;
+	margin: 20px 42px 14px;
 	border-bottom: 2px solid transparent;
 }
 
@@ -252,6 +252,10 @@ textarea:focus {
 
 @media screen and (min-width: 901px) and (max-width: 1024px)  {
 
+	.nav > li > a{
+		margin: 20px 22px 14px;
+	}
+
 	.hero {
 		background-color:#efeee7;
 		padding: 8% 10% 2% 10%;
@@ -299,6 +303,10 @@ textarea:focus {
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
+
+	.nav > li > a{
+		margin: 20px 32px 14px;
+	}
 
 	.hero {
 	}
@@ -382,6 +390,10 @@ textarea:focus {
 }
 
 @media screen and (min-width: 481px) and (max-width: 599px)  {
+
+	.nav > li > a{
+		margin: 20px 16px 14px;
+	}
 
 	.hero {
 	}
@@ -479,6 +491,10 @@ textarea:focus {
 }
 
 @media screen and (max-width: 480px)  {
+
+	.nav > li > a{
+		margin: 20px 16px 14px;
+	}
 
 	.hero {
 		background-color:#efeee7;
