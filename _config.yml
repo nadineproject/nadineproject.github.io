@@ -10,7 +10,7 @@ port:         8000
 # Site Details
 title:        "The Nadine Project"
 tagline:      "Open Source Coworking Platform"
-description:  "This is my personal record for art, projects, and other things I have had a hand in creating."
+description:  "Django web application to help manage membes in a coworking space."
 authors:      "Jacob Sayles, Alice Wicks, Griffin Wesler"
 
 # Custom vars
