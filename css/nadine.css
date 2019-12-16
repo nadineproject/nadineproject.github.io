@@ -8,8 +8,8 @@ body {
 }
 
 h1, .h1, h2, .h2, h3, .h3 {
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 /* SECTIONS */
@@ -155,7 +155,7 @@ h1 {
 	letter-spacing: .03em;
 	line-height: 108px;
 	color: black;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 }
 
 h2 {
@@ -166,10 +166,17 @@ h2 {
 	color: black;
 }
 
+h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: .35em;
+	color: black;
+}
+
 p {
 	margin-bottom: 1.5em;
 }
-
 
 p, ul {
 	font-size: 23px;
@@ -198,14 +205,6 @@ a {
 }
 
 /* BUTTON */
-
-h3 {
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 14px;
-	letter-spacing: .35em;
-	color: black;
-}
 
 .btn {
 	border-color: black;
