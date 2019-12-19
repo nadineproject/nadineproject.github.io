@@ -146,6 +146,12 @@ h1, .h1, h2, .h2, h3, .h3 {
 	margin-top: 120px;
 }
 
+.tight-list {
+  font-size: 14px;
+  padding-top: 6px;
+  line-height: .6em;
+}
+
 /* TYPE */
 
 h1 {
