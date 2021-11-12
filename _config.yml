@@ -9,11 +9,14 @@ port:         8000
 
 # Site Details
 title:        "The Nadine Project"
-tagline:      "Open Source Coworking Platform"
-description:  "Django web application to help manage membes in a coworking space."
+tagline:      "Open Source Member Managment Platform"
+description:  "Django web application to help manage membes in a your community of members."
 authors:      "Jacob Sayles, Alice Wicks, Griffin Wesler"
 
 # Custom vars
-email:             "info@nadineproject.org"
-github_url:        "https://github.com/nadineproject/nadine"
-google-analytics:  "UA-29552936-1"
+email:            "info@nadineproject.org"
+source_url:       "https://github.com/nadineproject/nadine"
+docs_url:         "https://nadine.readthedocs.io/en/master/"
+download_url:     "https://github.com/nadineproject/nadine/releases"
+forum_url:        "https://groups.google.com/forum/#!forum/nadineproject"
+google-analytics: "UA-29552936-1"
