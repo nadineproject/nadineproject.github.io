@@ -6,7 +6,6 @@
  - Everyone is an individual
  - Teams/Org are groups of members
 
-
 ## Granular Memberships
  - More than just In/Out
  - Different levels of membership
@@ -21,14 +20,13 @@
  - Membership over time
  - Revenue over time
  - Churn
- - ?
+ - Add your favorate stats!
 
 ## Member Portal
  - Member Directory
  - Help Text/FAQ
  - Events Calendar
  - Discovery Tools
-
 
 # What Nadine Isn't
 
@@ -39,4 +37,3 @@
 ## Accounting
  - Xero
  - Quickbooks (https://www.turbotaxsucksass.com)
-
